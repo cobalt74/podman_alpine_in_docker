@@ -1,5 +1,8 @@
 FROM alpine:latest
 
+LABEL org.opencontainers.image.source="https://github.com/cobalt74/podman_alpine_in_docker" \
+      org.opencontainers.image.description="Alpine image with podman rootless"
+
 RUN apk add --no-cache podman fuse-overlayfs
 
 RUN set -ex; \
