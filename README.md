@@ -1,6 +1,7 @@
 # podman_alpine_in_docker
 
 [![Docker Image CI](https://github.com/cobalt74/podman_alpine_in_docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/cobalt74/podman_alpine_in_docker/actions/workflows/docker-image.yml)
+[![Docker](https://github.com/cobalt74/podman_alpine_in_docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/cobalt74/podman_alpine_in_docker/actions/workflows/docker-publish.yml)
 
 Docker image with podman rootless based to Alpine 
 
